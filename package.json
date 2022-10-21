@@ -1,0 +1,17 @@
+{
+  "name": "morepo-react-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "license": "MIT",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "lerna run --parallel dev"
+  },
+  "devDependencies": {
+    "lerna": "^6.0.1",
+    "typescript": "^4.8.4"
+  }
+}
